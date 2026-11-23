@@ -6,7 +6,7 @@
 |---|---|
 | [devkitPro](https://devkitpro.org/wiki/Getting_Started) | Install **devkitPPC**, **wut** and the **Wii U portlibs**: `(dkp-)pacman -S wiiu-dev wiiu-sdl2 wiiu-sdl2_ttf wiiu-sdl2_image wiiu-curl wiiu-mbedtls ppc-jansson ppc-libopus ppc-mpg123 ppc-freetype ppc-harfbuzz ppc-libpng ppc-libjpeg-turbo ppc-libwebp ppc-zlib ppc-bzip2 ppc-brotli` |
 | Python 3 | Runs the build script |
-| `deps-prebuilt-wiiu.zip` | From the [Releases page](../../../releases/latest): DAVE/libdave + mlspp + OpenSSL libcrypto, x264 and the FFmpeg libraries, built for the Wii U. To build these yourself, see [deps/README.md](../deps/README.md). |
+| `deps-prebuilt-wiiu.zip` | From the [Releases page](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest): DAVE/libdave + mlspp + OpenSSL libcrypto, x264 and the FFmpeg libraries, built for the Wii U. To build these yourself, see [deps/README.md](../deps/README.md). |
 
 ## Build
 

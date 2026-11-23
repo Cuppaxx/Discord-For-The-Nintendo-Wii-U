@@ -7,7 +7,7 @@
 
 **Mingus Discord** is a native Discord client for the Wii U, with voice chat, cameras and Go Live viewing, running as a homebrew app on [Aroma](https://aroma.foryour.cafe/).
 
-[**⬇ Download**](../../releases/latest) · [**📖 Manual**](docs/MANUAL.md) · [**🛠 Building**](docs/BUILDING.md) · [**🐞 Report a bug**](../../issues/new/choose)
+[**⬇ Download**](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest) · [**📖 Manual**](docs/MANUAL.md) · [**🛠 Building**](docs/BUILDING.md) · [**🐞 Report a bug**](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/issues/new/choose)
 
 </div>
 
@@ -30,7 +30,7 @@
 ## Install
 
 1. Your Wii U needs the **[Aroma](https://wiiu.hacks.guide/)** homebrew environment.
-2. Download **`MingusDiscord.wuhb`** from the [latest release](../../releases/latest).
+2. Download **`MingusDiscord.wuhb`** from the [latest release](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
 3. Copy it to your SD card at **`SD:/wiiu/apps/MingusDiscord.wuhb`**.
 4. Put the SD card back and turn on the console. **Mingus Discord** appears on the Wii U Menu.
 5. Open it, choose **Log in with QR code**, and scan the code with the Discord app on your phone (**You → Scan QR Code**).

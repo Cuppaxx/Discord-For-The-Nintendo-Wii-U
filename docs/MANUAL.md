@@ -25,7 +25,7 @@
 
 You need a Wii U running the **Aroma** homebrew environment ([guide](https://wiiu.hacks.guide/)).
 
-1. Download `MingusDiscord.wuhb` from the [Releases page](../../../releases/latest).
+1. Download `MingusDiscord.wuhb` from the [Releases page](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
 2. Copy it to `SD:/wiiu/apps/MingusDiscord.wuhb`.
 3. Start the console. **Mingus Discord** appears on the Wii U Menu, alongside your games.
 
@@ -249,7 +249,7 @@ Developer and test switches such as `nomic.txt`, `vsend_dry.txt`, `gwdrop.txt`, 
 | **I can't hear someone** | Open their member menu and check their volume, and that *Mute for me* is off. |
 | **Echo for the other people** | Turn on *Echo reduction*, or lower the TV volume. |
 | **A camera stays black** | Wait for the next keyframe (a few seconds), or leave the tile and open it again. |
-| **Something else is wrong** | Open an [issue](../../../issues/new/choose) with `log.txt` attached. **Open `log.txt` first and make sure there is no token in it.** |
+| **Something else is wrong** | Open an [issue](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/issues/new/choose) with `log.txt` attached. **Open `log.txt` first and make sure there is no token in it.** |
 
 ## Known limitations
 
