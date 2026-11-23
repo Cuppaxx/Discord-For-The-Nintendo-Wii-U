@@ -1,0 +1,10 @@
+{
+  "output": "MingusDiscord",
+  "libs": ["SDL2_ttf", "SDL2_image", "SDL2", "freetype", "harfbuzz", "png16", "jpeg", "webpdemux", "webp", "sharpyuv",
+           "z", "bz2", "brotlidec", "brotlicommon", "curl", "mbedtls", "mbedx509", "mbedcrypto", "jansson", "opus",
+           "avformat", "avcodec", "swresample", "avutil", "mpg123", "x264",
+           "-Wl,--start-group", "dave_c", "dave", "mlspp", "mls_vectors", "hpke", "tls_syntax", "bytes", "crypto", "-Wl,--end-group",
+           "stdc++", "supc++", "wut", "m"],
+  "incdirs": ["deps/prebuilt/include"],
+  "libdirs": ["deps/prebuilt/lib"]
+}

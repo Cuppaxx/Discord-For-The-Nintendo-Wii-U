@@ -1,0 +1,26 @@
+# build output
+/build/
+*.o
+*.elf
+*.rpx
+*.wuhb
+
+# prebuilt dependency bundle (download from Releases, see docs/BUILDING.md)
+/deps/prebuilt/
+/deps-prebuilt-wiiu.zip
+
+# never commit login data or logs from an SD card
+token.txt
+**/token.txt
+*.log
+log*.txt
+uservol.txt
+
+# editor / OS junk
+*.bak
+*.bak-*
+*.orig
+*~
+.DS_Store
+Thumbs.db
+.vscode/
