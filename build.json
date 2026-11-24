@@ -1,5 +1,5 @@
 {
-  "output": "MingusDiscord",
+  "output": "DiscordWiiU",
   "libs": ["SDL2_ttf", "SDL2_image", "SDL2", "freetype", "harfbuzz", "png16", "jpeg", "webpdemux", "webp", "sharpyuv",
            "z", "bz2", "brotlidec", "brotlicommon", "curl", "mbedtls", "mbedx509", "mbedcrypto", "jansson", "opus",
            "avformat", "avcodec", "swresample", "avutil", "mpg123", "x264",

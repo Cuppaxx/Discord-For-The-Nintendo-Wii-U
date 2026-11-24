@@ -22,5 +22,6 @@
 * Desktop H.264 cameras at High@5.2 decode on the Wii U decoder.
 
 **UI**
+* The app is now called **Discord: For the Nintendo Wii U** (previously "Mingus Discord"). The download is `DiscordWiiU.wuhb`. SD data stays in `SD:/wiiu/apps/MingusDiscord/`.
 * QR-code login, a new logo and launch screen, and a bird.
 * Log out moved from − into Settings (press twice).

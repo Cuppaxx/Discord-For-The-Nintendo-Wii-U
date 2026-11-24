@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="docs/img/banner.png" width="720" alt="Mingus Discord for Wii U: voice chat, camera, messages">
+<img src="docs/img/banner.png" width="720" alt="Discord: For the Nintendo Wii U (voice chat, camera, messages)">
 
-# Discord For The Nintendo Wii U
+# Discord: For the Nintendo Wii U
 ### (Working VC and Camera!)
 
-**Mingus Discord** is a native Discord client for the Wii U, with voice chat, cameras and Go Live viewing, running as a homebrew app on [Aroma](https://aroma.foryour.cafe/).
+**Discord: For the Nintendo Wii U** is an unofficial, native Discord client for the Wii U, with voice chat, cameras and Go Live viewing, running as a homebrew app on [Aroma](https://aroma.foryour.cafe/).
 
 [**⬇ Download**](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest) · [**📖 Manual**](docs/MANUAL.md) · [**🛠 Building**](docs/BUILDING.md) · [**🐞 Report a bug**](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/issues/new/choose)
 
@@ -30,9 +30,10 @@
 ## Install
 
 1. Your Wii U needs the **[Aroma](https://wiiu.hacks.guide/)** homebrew environment.
-2. Download **`MingusDiscord.wuhb`** from the [latest release](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
-3. Copy it to your SD card at **`SD:/wiiu/apps/MingusDiscord.wuhb`**.
-4. Put the SD card back and turn on the console. **Mingus Discord** appears on the Wii U Menu.
+2. Download **`DiscordWiiU.wuhb`** from the [latest release](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
+3. Copy it to your SD card at **`SD:/wiiu/apps/DiscordWiiU.wuhb`**.
+4. Put the SD card back and turn on the console. **Discord: For the Nintendo Wii U** appears on the Wii U Menu.
+   *(Updating from an older build called `MingusDiscord.wuhb`? Delete that file so you don't get two icons. Your login and settings carry over.)*
 5. Open it, choose **Log in with QR code**, and scan the code with the Discord app on your phone (**You → Scan QR Code**).
 
 The full guide to every screen and button is in the **[Manual](docs/MANUAL.md)**.
@@ -52,7 +53,7 @@ See [Known limitations](docs/MANUAL.md#known-limitations) for what isn't support
 
 ## ⚠️ Disclaimer
 
-Mingus Discord is an **unofficial** third-party client. It is **not affiliated with, endorsed by or supported by Discord Inc. or Nintendo**. Using third-party clients is against Discord's Terms of Service, and your account could be actioned. **Use it at your own risk.** "Discord" and "Wii U" are trademarks of their respective owners.
+This app is an **unofficial** third-party client. It is **not affiliated with, endorsed by or supported by Discord Inc. or Nintendo**. Using third-party clients is against Discord's Terms of Service, and your account could be actioned. **Use it at your own risk.** "Discord" and "Wii U" are trademarks of their respective owners.
 
 Your login token is stored only on your own SD card (`SD:/wiiu/apps/MingusDiscord/token.txt`). It is never sent anywhere except to Discord. **Never share that file or post your log files publicly without checking them first.**
 
@@ -68,4 +69,4 @@ The full instructions are in [docs/BUILDING.md](docs/BUILDING.md). How the depen
 
 ## License
 
-Mingus Discord is free software under the **[GNU GPL v3.0](LICENSE)**. It links x264 (GPL) and OpenSSL 3 (Apache-2.0), so the combined program must be GPLv3. The bundled libraries and fonts keep their own licenses; see [THIRD_PARTY.md](THIRD_PARTY.md).
+This app is free software under the **[GNU GPL v3.0](LICENSE)**. It links x264 (GPL) and OpenSSL 3 (Apache-2.0), so the combined program must be GPLv3. The bundled libraries and fonts keep their own licenses; see [THIRD_PARTY.md](THIRD_PARTY.md).

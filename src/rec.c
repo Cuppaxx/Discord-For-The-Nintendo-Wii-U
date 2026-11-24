@@ -55,7 +55,7 @@ static int worker(void *arg) {
   { /* headers: OpusHead + OpusTags, each on its own page */
     uint8_t head[19]; memcpy(head, "OpusHead", 8); head[8] = 1; head[9] = 1; head[10] = pre & 255; head[11] = pre >> 8; le32(head + 12, 48000); head[16] = head[17] = 0; head[18] = 0;
     const uint8_t *p1[1] = {head}; int l1[1] = {19}; write_page(p1, l1, 1, 0, 0x02);
-    const char *vendor = "MingusDiscord"; uint8_t tags[64]; memcpy(tags, "OpusTags", 8); le32(tags + 8, (uint32_t)strlen(vendor)); memcpy(tags + 12, vendor, strlen(vendor)); le32(tags + 12 + strlen(vendor), 0);
+    const char *vendor = "DiscordWiiU"; uint8_t tags[64]; memcpy(tags, "OpusTags", 8); le32(tags + 8, (uint32_t)strlen(vendor)); memcpy(tags + 12, vendor, strlen(vendor)); le32(tags + 12 + strlen(vendor), 0);
     const uint8_t *p2[1] = {tags}; int l2[1] = {(int)(16 + strlen(vendor))}; write_page(p2, l2, 1, 0, 0); }
   static int16_t acc[8192]; int accn = 0; static int16_t pcm[RFRAME]; static uint8_t pk[50][400]; int pkl[50]; const uint8_t *pkp[50]; int npk = 0, lace = 0; uint64_t gran = 0;
   float ph = 0; uint32_t t0 = SDL_GetTicks();

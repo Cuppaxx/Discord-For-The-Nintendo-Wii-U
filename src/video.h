@@ -1,6 +1,6 @@
 #ifndef VIDEO_H
 #define VIDEO_H
-/* media player (copied from youtube/src/video.c and trimmed for MingusDiscord: no DASH, no js.h).
+/* media player (copied from youtube/src/video.c and trimmed for this app: no DASH, no js.h).
  * Progressive HTTP fetch -> MP4 (H.264, hardware decoded) / WebM (Opus) / MP3 -> texture + audio.
  * Several players may be open at once: each has its own H.264 decoder instance and decode thread; frame-output
  * callbacks are routed to the right player (decoder user pointer, else the calling thread, else the frame buffer). */

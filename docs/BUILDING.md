@@ -1,4 +1,4 @@
-# Building Mingus Discord
+# Building from source
 
 ## Requirements
 
@@ -19,14 +19,14 @@ export DEVKITPRO=/opt/devkitpro     # Windows: set DEVKITPRO=C:/devkitPro
 python tools/build.py
 ```
 
-The result is `MingusDiscord.wuhb` in the repository root. `python tools/build.py --clean` rebuilds everything from scratch.
+The result is `DiscordWiiU.wuhb` in the repository root. `python tools/build.py --clean` rebuilds everything from scratch.
 
 ## Layout
 
 ```
 src/        the app (main.c = UI + input, dc.c = REST API, gw.c = gateway, voice.c = voice/DAVE,
             vsend.c/vrecv.c = camera send/receive, golive.c = Go Live, overlay.c = menus/settings, ...)
-common/     the shared Mingus UI layer (nx.c: SDL2 drawing, text, input, software keyboard; nxnet.c: HTTP)
+common/     the shared UI layer (nx.c: SDL2 drawing, text, input, software keyboard; nxnet.c: HTTP)
 content/    files packed into the .wuhb (fonts, CA certificates, bird)
 assets/     Wii U Menu icon and launch images
 deps/       how the third-party libraries were built + the prebuilt bundle (deps/prebuilt, not in git)

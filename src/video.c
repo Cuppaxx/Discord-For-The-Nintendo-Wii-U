@@ -1,4 +1,4 @@
-/* video.c - media playback for MingusDiscord (copied from youtube/src/video.c, DASH removed, js.h logging replaced).
+/* video.c - media playback for Discord: For the Nintendo Wii U (copied from youtube/src/video.c, DASH removed, js.h logging replaced).
  * Progressive download, MP4 demux (H.264 via the Wii U hardware decoder), WebM/Opus and MP3 audio, AAC via libavcodec,
  * audio-clock synchronised presentation. Decoding runs on its own thread; vid_tick() on the UI thread only uploads frames.
  * Additions over the original: several players at once (per-instance decoder, callback routing, decoder calls
@@ -49,7 +49,7 @@ struct Vid {
   double wall0, paused_at, pause_total; bool paused; double seek_base; uint32_t load_t0;
 };
 
-static char g_ua[400] = "User-Agent: MingusDiscord/1.0 (Nintendo Wii U homebrew)";
+static char g_ua[400] = "User-Agent: DiscordWiiU/1.0 (Nintendo Wii U homebrew)";
 void vid_set_ua(const char *ua) { snprintf(g_ua, sizeof g_ua, "%s", ua && *ua ? ua : "User-Agent: Mozilla/5.0"); }
 static void (*g_log)(const char *line);
 void vid_set_log(void (*fn)(const char *line)) { g_log = fn; }

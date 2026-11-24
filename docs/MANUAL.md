@@ -1,7 +1,8 @@
 <div align="center">
 <img src="img/logo.png" width="120" alt="">
 
-# Mingus Discord: User Manual
+# User Manual
+### Discord: For the Nintendo Wii U
 
 </div>
 
@@ -25,9 +26,9 @@
 
 You need a Wii U running the **Aroma** homebrew environment ([guide](https://wiiu.hacks.guide/)).
 
-1. Download `MingusDiscord.wuhb` from the [Releases page](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
-2. Copy it to `SD:/wiiu/apps/MingusDiscord.wuhb`.
-3. Start the console. **Mingus Discord** appears on the Wii U Menu, alongside your games.
+1. Download `DiscordWiiU.wuhb` from the [Releases page](https://github.com/Cuppaxx/Discord-For-The-Nintendo-Wii-U/releases/latest).
+2. Copy it to `SD:/wiiu/apps/DiscordWiiU.wuhb`.
+3. Start the console. **Discord: For the Nintendo Wii U** appears on the Wii U Menu, alongside your games.
 
 To update, replace the `.wuhb` file with the newer one. Your login and settings are kept, because they live in a separate folder (`SD:/wiiu/apps/MingusDiscord/`).
 
@@ -225,7 +226,7 @@ Settings and per-person volumes are saved in `uservol.txt`.
 
 ## 9. Files on your SD card
 
-Everything the app saves is in `SD:/wiiu/apps/MingusDiscord/`:
+Everything the app saves is in `SD:/wiiu/apps/MingusDiscord/`. The folder keeps the app's original name, so logins and settings carry over between versions.
 
 | File | What it is |
 |---|---|

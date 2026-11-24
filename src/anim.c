@@ -19,7 +19,7 @@ static void (*g_alog)(const char *line);
 void anim_set_log(void (*fn)(const char *line)) { g_alog = fn; vid_set_log(fn); ap_set_log(fn); }
 static void alog(const char *fmt, ...) { if (!g_alog) return; char b[600]; va_list ap; va_start(ap, fmt); vsnprintf(b, sizeof b, fmt, ap); va_end(ap); g_alog(b); }
 
-static const char *k_ua = "User-Agent: MingusDiscord/1.0 (Nintendo Wii U homebrew)";
+static const char *k_ua = "User-Agent: DiscordWiiU/1.0 (Nintendo Wii U homebrew)";
 static SDL_atomic_t g_frame_kb;                                 /* decoded image-animation frames of all open Anims (KB) */
 size_t anim_frame_mem(void) { return (size_t)SDL_AtomicGet(&g_frame_kb) << 10; }
 

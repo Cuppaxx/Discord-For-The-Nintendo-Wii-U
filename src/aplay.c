@@ -117,7 +117,7 @@ static int dec_thread(void *arg) {
 
 APlay *ap_open(const char *url, size_t max_bytes) {
   APlay *p = calloc(1, sizeof *p); if (!p) return NULL; snprintf(p->url, sizeof p->url, "%s", url); p->maxdl = max_bytes ? max_bytes : (96u << 20); p->mx = SDL_CreateMutex(); p->state = VID_LOADING;
-  const char *h[] = {"User-Agent: MingusDiscord/1.0 (Nintendo Wii U homebrew)", "Accept: */*", "Accept-Encoding: identity", NULL};
+  const char *h[] = {"User-Agent: DiscordWiiU/1.0 (Nintendo Wii U homebrew)", "Accept: */*", "Accept-Encoding: identity", NULL};
   plog("[aplay %p] open %.150s", (void *)p, url);
   p->job = nxnet_start("GET", url, h, NULL, 0, p->maxdl);
   p->th = SDL_CreateThreadWithStackSize(dec_thread, "adec", 256 * 1024, p); if (!p->th) seterr(p, "could not start the audio thread");

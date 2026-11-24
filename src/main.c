@@ -1,4 +1,4 @@
-/* MingusDiscord - native Discord text client for Wii U (REST polling, QR login, no PC needed) */
+/* Discord: For the Nintendo Wii U - native Discord client for Wii U (REST polling, QR login, no PC needed) */
 #include <SDL2/SDL_image.h>
 #include "nx.h"
 #include "nxnet.h"
@@ -867,7 +867,7 @@ static void draw_chat(void) {
     int hw = nx_text(CHAT_X + 54, 14, cur_name, 1 | NX_BOLD, C_WHITE, CHAT_W - 300);
     if (cur_topic[0] && !in_dms) { nx_rect(CHAT_X + 66 + hw, 18, 1, 22, RGB(63, 65, 71)); nx_text(CHAT_X + 78 + hw, 17, cur_topic, 0, C_MUTED, CHAT_W - 330 - hw); }
     if (job || img[0].job || img[1].job) nx_text(CHAT_X + CHAT_W - 70, 16, "...", 1, C_MUTED, 0);
-  } else nx_text(CHAT_X + 20, 14, "Mingus Discord", 1 | NX_BOLD, C_WHITE, 0);
+  } else nx_text(CHAT_X + 20, 14, "Discord: For the Nintendo Wii U", 1 | NX_BOLD, C_WHITE, 0);
   if (!cur_chan[0]) {                                           /* empty state */
     nx_circle(CHAT_X + CHAT_W / 2, 250, 56, C_SIDE); text_center(CHAT_X + CHAT_W / 2, 214, "#", 3 | NX_BOLD, C_MUTED);
     text_center(CHAT_X + CHAT_W / 2, 330, "Pick a channel to start chatting", 2 | NX_BOLD, C_WHITE);
@@ -1094,7 +1094,7 @@ static void handle_input(NxInput *in) {
 }
 
 int main(void) {
-  if (!nx_init("MingusDiscord")) return 1;
+  if (!nx_init("Discord: For the Nintendo Wii U")) return 1;
   nx_set_inline_provider(inline_provider); ov_init(av_get); ov_load_volumes(); anim_set_log(anim_log);
   dc_init(); dlog_init(dc_dir()); netmem_start();   /* before any network use: own socket memory for UDP voice/video */
   nxnet_init(); rs_load();

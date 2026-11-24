@@ -1,4 +1,4 @@
-/* nx - tiny shared UI layer for the MingusDiscord / MingusBrowser Wii U apps (SDL2 + SDL2_ttf + SDL2_image) */
+/* nx - tiny shared UI layer for the Discord / browser Wii U apps (SDL2 + SDL2_ttf + SDL2_image) */
 #ifndef NX_H
 #define NX_H
 #include <SDL2/SDL.h>

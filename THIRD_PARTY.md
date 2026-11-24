@@ -1,6 +1,6 @@
 # Third-party software and assets
 
-Mingus Discord is licensed under the GNU GPL v3.0 (see [LICENSE](LICENSE)). It includes or links the following.
+*Discord: For the Nintendo Wii U* is licensed under the GNU GPL v3.0 (see [LICENSE](LICENSE)). It includes or links the following.
 Their licenses are kept as they are.
 
 ## Linked libraries

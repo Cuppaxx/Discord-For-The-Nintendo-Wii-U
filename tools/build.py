@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build MingusDiscord.wuhb (no make needed).
+"""Build DiscordWiiU.wuhb (no make needed).
 
-    python tools/build.py            # release build -> MingusDiscord.wuhb
+    python tools/build.py            # release build -> DiscordWiiU.wuhb
     python tools/build.py --clean    # wipe build/ first
 
 Needs devkitPro with devkitPPC, wut and the Wii U portlibs (see docs/BUILDING.md), plus the
@@ -16,7 +16,7 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-APP_NAME, SHORT_NAME, AUTHOR = 'Mingus Discord', 'Mingus Discord', 'Mingus'
+APP_NAME, SHORT_NAME, AUTHOR = 'Discord: For the Nintendo Wii U', 'Discord', 'Cuppaxx'
 EXE = '.exe' if os.name == 'nt' else ''
 
 
