@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/img/banner.png" width="720" alt="Mingus Discord for Wii U: Voice, Camera, Chat">
+<img src="docs/img/banner.png" width="720" alt="Mingus Discord for Wii U: voice chat, camera, messages">
 
 # Discord For The Nintendo Wii U
 ### (Working VC and Camera!)
